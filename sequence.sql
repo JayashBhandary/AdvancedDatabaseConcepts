@@ -1,0 +1,8 @@
+CREATE SEQUENCE my_sequence
+    START WITH 1
+    INCREMENT BY 1
+    MAXVALUE 100
+    MINVALUE 1
+    CYCLE
+    CACHE 10
+    ORDER;
